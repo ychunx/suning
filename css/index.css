@@ -1,0 +1,202 @@
+@media screen and (max-width: 1200px) {
+    .banner .bannerRight {
+        display: none;
+    }
+}
+
+/* banner模块 */
+.main {
+    background-color: #F2F2F2;
+}
+
+.banner {
+    display: block;
+    width: 100%;
+    height: 476px;
+    background-color: #F91D25;
+}
+
+.banner .w {
+    position: relative;
+    height: 476px;
+}
+
+/* banenr 图 */
+.bannerImgs {
+    position: absolute;
+    top: 0;
+    left: 200px;
+}
+
+/* banner 图区域 */
+.bannerFour {
+    position: absolute;
+    bottom: 5px;
+    left: 204px;
+    height: 112px;
+    width: 786px;
+}
+
+.bannerFour ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bannerFour li {
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.bannerFour a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.bannerFour img {
+    height: 112px;
+    flex: 1;
+}
+
+.bannerRight {
+    position: absolute;
+    top: 0;
+    left: 994px;
+    width: 196px;
+    height: 476px;
+    background-color: #fff;
+    pointer-events: auto
+}
+
+.topBox {
+    height: 225px;
+    width: 196px;
+    position: relative;
+}
+
+.userImg {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 48px;
+    height: 48px;
+}
+
+.userImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.notLogin {
+    width: 196px;
+    height: 140px;
+    overflow: hidden;
+}
+
+.btnGroup {
+    position: absolute;
+    top: 15px;
+    right: 5px;
+    line-height: 12px;
+    font-size: 12px;
+}
+
+.btnGroup p {
+    display: block;
+    height: 22px;
+}
+
+.btnGroup p,
+.btnGroup a,
+.btnGroup i {
+    color: #333;
+}
+
+.btnGroup a:hover {
+    color: #f60;
+}
+
+.notLogin>a {
+    display: block;
+    width: 156px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.notLogin>a:nth-child(2) {
+    color: #fff;
+    background-color: #ff8000;
+    margin: 70px 20px 0 20px;
+}
+
+.notLogin>a:last-child {
+    color: #fada99;
+    background-color: #19145C;
+    margin: 10px 20px 0 20px;
+}
+
+.threeEntry {
+    height: 85px;
+    width: 196px;
+    color: #333;
+    font-size: 14px;
+    display: flex;
+}
+
+.threeEntry a {
+    display: block;
+    flex: 1;
+    text-align: center;
+}
+
+.threeEntry a:hover {
+    color: #f60;
+}
+
+.threeEntry img {
+    width: 36px;
+    height: 36px;
+    display: block;
+    margin: 6px auto;
+}
+
+.botBox {
+    display: flex;
+    width: 196px;
+    height: 251px;
+}
+
+.botBox ul {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.botBox ul li {
+    width: 33.33%;
+}
+
+.botBox ul li:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.08), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+    margin-top: -3px;
+}
+
+.botBox img {
+    display: block;
+    width: 26px;
+    height: 26px;
+    margin: 12px auto;
+}
+
+.botBox a {
+    color: #333;
+    font-size: 14px;
+}
+
+.botBox ul li:hover a {
+    color: #f60;
+}
