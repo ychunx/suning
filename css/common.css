@@ -55,7 +55,7 @@
 }
 
 .style_ora {
-    color: #ff6600;
+    color: #f60;
 }
 
 /* 顶部导航模块 */
@@ -73,6 +73,12 @@
 .shortcut ul li {
     float: left;
     padding: 0 10px;
+}
+
+.shortcut ul a:hover,
+.shortcut ul li:hover {
+    cursor: pointer;
+    color: #f60;
 }
 
 /* 向下箭头三角 */
@@ -329,15 +335,10 @@
     cursor: pointer;
 }
 
-/* footer模块 */
-.footer {
-    border-top: 1px solid #e7e7e7;
-    background-color: #F2F2F2;
-    height: 525px;
-}
-
+/* footer上面模块 */
 .footerBox {
-    height: 300px;
+    background-color: #f5f5f5;
+    height: 290px;
 }
 
 .iconBoxs {
@@ -392,7 +393,7 @@
 
 /* footer help服务 */
 .helpBoxs {
-    height: 200px;
+    height: 190px;
     display: flex;
     padding-top: 10px;
 }
@@ -428,44 +429,40 @@
 }
 
 .helpDownBox {
-    width: 90px;
+    width: 140px;
     height: 200px;
 }
 
 .helpDownBox div {
+    width: 90px;
     color: #333;
     font-size: 12px;
 }
 
-/* 页尾 */
-.footerBox+div {
-    height: 225px;
+/* footer模块 */
+.footer {
     background-color: #fff;
+    height: 225px;
     padding-top: 15px;
 }
 
-.footerBox+div>.w {
-    height: 210px;
-
-}
-
-.w p {
+.footer p {
     font-size: 12px;
     color: #888;
     text-align: center;
     height: 25px;
 }
 
-.w p a {
+.footer p a {
     color: #999;
 }
 
-.w p:nth-child(1) a,
-.w p:nth-child(2) a {
+.footer p:nth-child(1) a,
+.footer p:nth-child(2) a {
     color: #666;
 }
 
-.w p span {
+.footer p span {
     padding: 0 6px;
 }
 

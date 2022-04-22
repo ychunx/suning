@@ -200,3 +200,133 @@
 .botBox ul li:hover a {
     color: #f60;
 }
+
+/* floatBar 浮动模块 */
+.floatBar {
+    position: fixed;
+    top: 50%;
+    left: 90px;
+    margin-top: -106px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    width: 70px;
+    height: 212px;
+    padding-top: 9px;
+    font-size: 12px;
+    color: #333;
+}
+
+.floatBar li {
+    width: 68px;
+    height: 29px;
+    border-bottom: 1px solid #e8e8e8;
+    text-align: center;
+    line-height: 28px;
+    cursor: pointer;
+}
+
+.floatBar li.active {
+    color: #fff;
+    background-color: #f60;
+}
+
+.floatBar a {
+    display: block;
+    width: 68px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.floatBar a:hover {
+    color: #f60;
+}
+
+.floatBar a:nth-child(2) {
+    color: #f60;
+}
+
+/* 推荐模块 */
+.recoms {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.recom {
+    width: 590px;
+    background-color: #fff;
+    border-radius: 12px;
+    margin-top: 10px;
+}
+
+.recom p {
+    display: inline-block;
+    height: 60px;
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+    text-align: start;
+    padding: 10px 0 0 16px;
+}
+
+.recom p:hover {
+    cursor: pointer;
+    color: #f60;
+}
+
+.recom>div {
+    display: flex;
+}
+
+.recom>div div {
+    padding: 0 10px;
+}
+
+.recom>div div:hover {
+    cursor: pointer;
+}
+
+.recom>div div:hover h1 {
+    color: #f60;
+}
+
+.recom>div h1 {
+    font-size: 14px;
+    color: #333;
+    font-weight: normal;
+    display: block;
+    overflow: hidden;
+    height: 20px;
+    line-height: 20px;
+}
+
+.recom>div h2 {
+    font-size: 12px;
+    color: #999;
+    font-weight: normal;
+    margin: 4px;
+}
+
+.recom img {
+    display: block;
+    width: 150px;
+    margin: 0 auto 10px;
+}
+
+.recom>div h2 i:first-child {
+    color: #f30;
+    font-weight: bold;
+}
+
+.recom>div h2 em:nth-child(2) {
+    color: #f30;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.recom>div h2 i:nth-child(3),
+.recom>div h2 em:last-child {
+    text-decoration: line-through;
+}
