@@ -175,6 +175,10 @@
     border: 0;
 }
 
+.hotwords a:hover {
+    color: #f60;
+}
+
 /* 右边导航栏 */
 .sidebar {
     position: fixed;
@@ -258,6 +262,7 @@
     height: 31px;
     padding: 0 6px 0 28px;
     position: relative;
+    background-color: #fff;
 }
 
 .dd li:hover {
